@@ -15,6 +15,7 @@
 		9F9B3EC31C10747E00EF640A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F9B3EC11C10747E00EF640A /* LaunchScreen.storyboard */; };
 		9F9B3ECE1C10747F00EF640A /* AutolayoutAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B3ECD1C10747F00EF640A /* AutolayoutAnimationTests.m */; };
 		9F9B3ED91C10747F00EF640A /* AutolayoutAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B3ED81C10747F00EF640A /* AutolayoutAnimationUITests.m */; };
+		9F9B3EE81C1078C000EF640A /* HomePageAnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F9B3EE71C1078C000EF640A /* HomePageAnimationUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		9F9B3ED41C10747F00EF640A /* AutolayoutAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutolayoutAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F9B3ED81C10747F00EF640A /* AutolayoutAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutolayoutAnimationUITests.m; sourceTree = "<group>"; };
 		9F9B3EDA1C10747F00EF640A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F9B3EE61C1078C000EF640A /* HomePageAnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageAnimationUtil.h; sourceTree = "<group>"; };
+		9F9B3EE71C1078C000EF640A /* HomePageAnimationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageAnimationUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				9F9B3EC11C10747E00EF640A /* LaunchScreen.storyboard */,
 				9F9B3EC41C10747E00EF640A /* Info.plist */,
 				9F9B3EB31C10747E00EF640A /* Supporting Files */,
+				9F9B3EE61C1078C000EF640A /* HomePageAnimationUtil.h */,
+				9F9B3EE71C1078C000EF640A /* HomePageAnimationUtil.m */,
 			);
 			path = AutolayoutAnimation;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				9F9B3EBB1C10747E00EF640A /* ViewController.m in Sources */,
 				9F9B3EB81C10747E00EF640A /* AppDelegate.m in Sources */,
+				9F9B3EE81C1078C000EF640A /* HomePageAnimationUtil.m in Sources */,
 				9F9B3EB51C10747E00EF640A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
